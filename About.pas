@@ -44,14 +44,14 @@ USES
 procedure TfrmAbout.lblURLClick(Sender: TObject);
 begin
   ShellExecute (Handle, nil,
-    'http://www.geocities.com/rankinlibs', nil, nil, SW_SHOWNORMAL)
+    'https://www.davidmwilliams.com', nil, nil, SW_SHOWNORMAL)
 end;
 
 // ----------------------------------------------------------------------------
 procedure TfrmAbout.lblEmailClick(Sender: TObject);
 begin
   ShellExecute (Handle, nil,
-    'mailto:ap_dmw@bigpond.com', nil, nil, SW_SHOWNORMAL)
+    'mailto:david@davidmwilliams.com', nil, nil, SW_SHOWNORMAL)
 end;
 
 END.
