@@ -1,0 +1,46 @@
+Features
+~~~~~~~~
+User interface
+  - save settings from export dialog
+  - allow export dialog to specify font
+  - allow export dialog to specify colours
+  - save check box statuses so enabled/disabled fonts are persistent
+  - set font used for font name
+  - add to wizard mode : orientation, font style
+  - multiple report configurations
+  - background/foreground colours of displayed fonts
+  - fix 'Use Windows installed fonts' so that checkbox keeps sync with
+    toggle and individual selections/deselections
+  - allow shift/ctrl multi-selecting on font list
+
+For some future version, when listing all fonts in advanced mode, would it be feasible for the report to show which fonts are installed and which ones are not? For uninstalled fonts, could the report show the path to the folder where they are stored?
+
+API
+  - run from taskbar or system tray
+  - allow custom page sizes
+  - disable page sizes not supported by printer
+
+Packaging
+  - put version number in file name
+  - make name consistent (program, text files, installshield)
+  - disable program after 30 days
+  - limit functionality when unregistered
+  - fix all bugs listed below
+  - tidy-up packages linked in
+
+Bugs
+~~~~
+  - fix bug where large margins in inches crash program
+  - print preview in landscape mode does not work (displays portrait)
+  - word wrap problem with very long text samples, without breaks
+  - Adding C:\ drive alone does not recurse
+
+Redistributable Components
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - PrevInstance
+  - TMinMax
+  - FolderSelectDlg
+  - WaitFrm
+  - TDWImage - gif, jpeg, bmp
+  - QRPreviewFrm
+  - Drop down colour selection list

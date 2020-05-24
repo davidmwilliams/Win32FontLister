@@ -1,0 +1,243 @@
+
+[InstallShield Wizard]
+iDate=1
+iTime=0
+Flag=0
+ISX.EXE Size=679936
+ISX.EXE Date=11:21:52AM  8-4-1999
+ISX.EXE Ver=2.1.2.62
+SETUP.EXE Size=45312
+SETUP.EXE Date=9:12:24AM  23-3-1999
+SETUP.EXE Ver=3.0.111.0
+SETUP.INS Size=81342
+SETUP.INS Date=11:26:40AM  8-4-1999
+SETUP.INS Ver=Not available
+_INST16.EX_ Size=81342
+_INST16.EX_ Date=11:26:40AM  8-4-1999
+_INST16.EX_ Ver=Not available
+_INST32I.EX_ Size=294079
+_INST32I.EX_ Date=9:12:22AM  23-3-1999
+_INST32I.EX_ Ver=Not available
+ISDEPEND.INI Size=6857
+ISDEPEND.INI Date=10:13:00AM  23-7-1999
+ISDEPEND.INI Ver=Not available
+SWDEPEND.INI Size=9717
+SWDEPEND.INI Date=10:18:30AM  23-7-1999
+SWDEPEND.INI Ver=Not available
+ICOMP.EXE Size=119808
+ICOMP.EXE Date=9:12:24AM  23-3-1999
+ICOMP.EXE Ver=3.00.062
+SPLIT.EXE Size=90624
+SPLIT.EXE Date=9:12:24AM  23-3-1999
+SPLIT.EXE Ver=3.00.060
+PACKLIST.EXE Size=87552
+PACKLIST.EXE Date=9:12:24AM  23-3-1999
+PACKLIST.EXE Ver=3.00.060
+Version=2.12
+DevTool=Delphi 5
+Platform=Win32
+DisksBuilt=1
+DisksDir=LISTFO~1\650MB\
+TabsVisit=1111111111111111100011
+LangNum=451
+LangDir=LANG\ENG\
+
+[VisualDesign]
+AppName=Win32 Font Lister
+AppExe=[Program Files]\ListFonts.exe
+AppExeFile=
+Version=3.7
+Company=Intelligent Software
+Title=Win32 Font Lister
+TitleType=1
+BackgrndBmp=
+BackgrndAlign=4
+Backgrnd=1
+BackgrndColor=0
+Uninstall=1
+UninstallChecked=1
+Silent=1
+SmsMode=0
+
+[Types]
+Types=1
+Type1Components=1
+Type1Name=Complete
+Type1ComponentList=1 
+
+[Components]
+Components=1
+Component1Groups=1
+Component1Name=Application Files
+Component1Description=Application files needed to run the application
+Component1GroupList=1 
+
+[Groups]
+Groups=1
+Group1Size=1325897
+Group1Files=3
+Group1Name=Program Files
+Group1Dir=<INSTALLDIR>
+Group1Update=0
+Group1TargetOS=-1
+Group1File1=D:\Software development\ListFonts\ListFonts.exe
+Group1File2=D:\Software development\ListFonts\README.rtf
+Group1File3=D:\Software development\ListFonts\README.txt
+
+[Sequence]
+DestinationLocationDir=<ProgramFilesDir>\Intelligent Software\Win32 Font Lister
+DatabaseLocationDir=<INSTALLDIR>\data
+SelectProgramFolderName=Win32 Font Lister
+ReadMeFileBrowser=1
+ReadMeFileBrowserFile=D:\Software development\ListFonts\README.txt
+DestinationLocation=1
+SelectProgramFolder=1
+SetupComplete=1
+SetupCompleteExec=[Program Files]\ListFonts.exe
+SetupCompleteExecParam=
+SetupCompleteExecReadme=[Program Files]\README.txt
+
+[RegEntries]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1Val1Type=0
+Reg1Val1Name=(Default)
+Reg1Val1Data=(value not set)
+Reg1Vals=1
+Reg2Path=HKEY_CURRENT_USER
+Reg2Val1Type=0
+Reg2Val1Name=(Default)
+Reg2Val1Data=(value not set)
+Reg2Vals=1
+Reg3Path=HKEY_LOCAL_MACHINE
+Reg3Val1Type=0
+Reg3Val1Name=(Default)
+Reg3Val1Data=(value not set)
+Reg3Vals=1
+Reg4Path=HKEY_USERS
+Reg4Val1Type=0
+Reg4Val1Name=(Default)
+Reg4Val1Data=(value not set)
+Reg4Vals=1
+Reg5Path=HKEY_CURRENT_CONFIG
+Reg5Val1Type=0
+Reg5Val1Name=(Default)
+Reg5Val1Data=(value not set)
+Reg5Vals=1
+Reg6Path=HKEY_DYN_DATA
+Reg6Val1Type=0
+Reg6Val1Name=(Default)
+Reg6Val1Data=(value not set)
+Reg6Vals=1
+Reg7Path=HKEY_CURRENT_USER\Software
+Reg7Val1Type=0
+Reg7Val1Name=(Default)
+Reg7Val1Data=(value not set)
+Reg7Vals=1
+Reg8Path=HKEY_CURRENT_USER\Software\FontLister
+Reg8PathUninstall=1
+Reg8Val1Type=0
+Reg8Val1Name=(Default)
+Reg8Val1Data=(value not set)
+Reg8Vals=1
+Reg9Path=HKEY_CURRENT_USER\Software\FontLister\ListingProperties
+Reg9PathUninstall=1
+Reg9Val1Type=0
+Reg9Val1Name=(Default)
+Reg9Val1Data=(value not set)
+Reg9Vals=1
+Reg10Path=HKEY_CURRENT_USER\Software\FontLister\PageLayout
+Reg10PathUninstall=1
+Reg10Val1Type=0
+Reg10Val1Name=(Default)
+Reg10Val1Data=(value not set)
+Reg10Vals=1
+Reg11Path=HKEY_CURRENT_USER\Software\FontLister\Fonts
+Reg11PathUninstall=1
+Reg11Val1Type=0
+Reg11Val1Name=(Default)
+Reg11Val1Data=(value not set)
+Reg11Vals=1
+Reg12Path=HKEY_CURRENT_USER\Software\FontLister\Options
+Reg12PathUninstall=1
+Reg12Val1Type=0
+Reg12Val1Name=(Default)
+Reg12Val1Data=(value not set)
+Reg12Vals=1
+Reg13Path=HKEY_CURRENT_USER\Software\FontLister\HeaderFooter
+Reg13PathUninstall=1
+Reg13Val1Type=0
+Reg13Val1Name=(Default)
+Reg13Val1Data=(value not set)
+Reg13Vals=1
+Regs=13
+
+[Registry]
+Reg1Path=HKEY_CURRENT_USER\Software
+Reg2Path=HKEY_CURRENT_USER\Software\FontLister
+Reg2PathUninstall=1
+Reg3Path=HKEY_CURRENT_USER\Software\FontLister\ListingProperties
+Reg3PathUninstall=1
+Reg4Path=HKEY_CURRENT_USER\Software\FontLister\PageLayout
+Reg4PathUninstall=1
+Reg5Path=HKEY_CURRENT_USER\Software\FontLister\Fonts
+Reg5PathUninstall=1
+Reg6Path=HKEY_CURRENT_USER\Software\FontLister\Options
+Reg6PathUninstall=1
+Reg7Path=HKEY_CURRENT_USER\Software\FontLister\HeaderFooter
+Reg7PathUninstall=1
+Regs=7
+
+[Icons]
+Icons=2
+Icon1Param=
+Icon1Cmd=[Program Files]\ListFonts.exe
+Icon1Description=Win32 Font Lister
+Icon1WorkingDir=[Program Files]
+Icon1IconFile=
+Icon1RealFile=D:\Software development\ListFonts\ListFonts.exe
+Icon1WhichIcon=0
+Icon1KeyVirtual=0
+Icon1KeyFlags=0
+Icon1StartMenu=0
+Icon1Window=0
+Icon2Param=
+Icon2Cmd=[Program Files]\README.rtf
+Icon2Description=Win32 Font Lister Readme
+Icon2WorkingDir=[Program Files]
+Icon2IconFile=
+Icon2RealFile=D:\Software development\ListFonts\README.rtf
+Icon2WhichIcon=0
+Icon2KeyVirtual=0
+Icon2KeyFlags=0
+Icon2StartMenu=0
+Icon2Window=0
+
+[SysIniFiles]
+File1=WIN.INI
+Section1=
+Key1=
+Value1=
+File2=SYSTEM.INI
+Section2=
+Key2=
+Value2=
+File3=PROTOCOL.INI
+Section3=
+Key3=
+Value3=
+IniFiles=3
+
+[Autoexec]
+PathDir=
+ShareLocks=
+ShareFiles=
+Command=
+
+[CopyToFloppy]
+DriveOption=
+DestinationPath=
+DestinationPathOneFile=
+Password=
+
+[Uninstall]
+UserUninstall=0
