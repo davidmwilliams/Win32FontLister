@@ -67,6 +67,10 @@ var
   RNIndex: integer;
 
 begin
+  RegName := 'GitHub user';
+  isRegistered := True;
+
+(*
   Reg := TWinRegistry.Create (Secret_Key);
   CipherText := Reg.ReadString (SecretName, SecretName, '');
   Reg.Free;
@@ -83,6 +87,7 @@ begin
   end;
 
   isRegistered := GoodCRC
+  *)
 end;
 
 //------------------------------------------------------------------------------
@@ -156,7 +161,7 @@ end;
 procedure TRegisterDlg.lblPayPalClick(Sender: TObject);
 begin
   ShellExecute (Handle, nil,
-    'https://www.paypal.com/xclick/business=ap_dmw%40bigpond.com&item_name=Win32+Font+Lister&amount=10.00', nil,
+    'https://www.paypal.com/xclick/business=david%40alivad.com&item_name=Win32+Font+Lister&amount=10.00', nil,
     nil, SW_SHOWNORMAL)
 end;
 
