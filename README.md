@@ -2,6 +2,10 @@
 
 A Windows desktop app to display samples from all fonts available, including uninstalled fonts from a specified device or location.
 
+# Release
+
+The latest version of Win32 Font Lister is available in the repo as listfonts.exe.
+
 # History
 
 Win32 Font Lister is an app I wrote in Delphi in 1998, and updated several times to 2003. The inspiration came when two people unrelatedly asked me in the same week if I knew of any good apps to help them print a sample of all their installed fonts.
