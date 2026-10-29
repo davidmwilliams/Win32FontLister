@@ -692,8 +692,9 @@ var
   NamingTable: TNamingTable;
   NameRecord: TNameRecord;
   LongSwap: LongInt;
-  Buffer: array [0..255] of Char;
+  Buffer: array [0..255] of Byte;
   WideResult: string;
+  NameLength: Integer;
   I: Integer;
 
 begin
@@ -732,14 +733,24 @@ begin
 
   FileSeek (FileHandle, Swap (NamingTable.StringOffset) +
     Swap (NameRecord.Offset) + TableDirectory.Offset, 0);
-  FileRead (FileHandle, Buffer, Swap (NameRecord.Length));
-  NameRecord.Length := Swap (NameRecord.Length);
+  NameLength := Swap (NameRecord.Length);
+  if (NameLength < 2) or (NameLength > SizeOf (Buffer)) or
+    ((NameLength mod 2) <> 0) then
+  begin
+    FileClose (FileHandle);
+    Exit;
+  end;
+  if FileRead (FileHandle, Buffer, NameLength) <> NameLength then
+  begin
+    FileClose (FileHandle);
+    Exit;
+  end;
 
   I := 1;
   repeat
-    WideResult := WideResult + Buffer [I];
+    WideResult := WideResult + Chr (Buffer [I]);
     I := I + 2;
-  until I > NameRecord.Length;
+  until I > NameLength;
 
   Result := WideResult;
   FileClose (FileHandle);
